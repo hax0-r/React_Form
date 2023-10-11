@@ -23,7 +23,7 @@ export default function Form() {
         <>
             <nav>
                 <div className="left">
-                    <h1>Form</h1>
+                    <h1>DataHub</h1>
                     <ul>
                         <li><a href="">Solution</a></li>
                         <li><a href="">Resources</a></li>
@@ -32,7 +32,7 @@ export default function Form() {
                     </ul>
                 </div>
                 <div className="right">
-                    <a href="">Find an agent</a>
+                    <a href="">Connect Us</a>
                     <button>Get a Quote</button>
                 </div>
             </nav>
@@ -43,8 +43,8 @@ export default function Form() {
                     <h1>Work For yourself, not by yourself, with gaspar insurance </h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit saepe accusamus dicta aliquid necessitatibus.</p>
                     <div className="btn">
-                        <button>Find a agent</button>
-                        <a href="">+92 152666263</a>
+                        <button>Read Me Now</button>
+                        <a href="">+92 152345263</a>
                     </div>
                 </div>
                 <form onSubmit={form}>
@@ -75,6 +75,8 @@ export default function Form() {
                     </div>
                 </form>
             </section>
+
+            
         </>
     )
 }

@@ -73,6 +73,14 @@ nav .right button {
   cursor: pointer;
 }
 
+@media screen and (max-width: 860px) {
+  nav .left ul {
+    display: none;
+  }
+  nav .right {
+    display: none;
+  }
+}
 section {
   display: flex;
   justify-content: space-evenly;
@@ -184,4 +192,64 @@ section form div p {
 }
 section form div p a {
   color: rgba(18, 36, 50, 0.863);
+}
+
+@media screen and (max-width: 992px) {
+  section {
+    flex-direction: column;
+    height: unset;
+  }
+  section .headData {
+    max-width: 35rem;
+    padding: 0 2rem;
+  }
+  section .headData h1 {
+    line-height: 3.5rem;
+  }
+  section .headData p {
+    line-height: 1.4rem;
+  }
+  section .headData .btn {
+    gap: 1.2rem;
+  }
+  section .headData .btn button {
+    padding: 1rem 2rem;
+  }
+  section form {
+    margin-top: 2rem;
+    width: 90%;
+  }
+  section form div {
+    max-width: unset;
+  }
+}
+@media screen and (max-width: 410px) {
+  section .headData h1 {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+  section .headData .btn {
+    gap: 0.2rem;
+  }
+  section .headData .btn button {
+    padding: 0.7rem 1.45rem;
+  }
+  section .headData .btn a {
+    font-size: 0.95rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  section .headData .btn {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  section .headData .btn button {
+    padding: unset;
+    width: 100%;
+    height: 3rem;
+  }
+  section .headData .btn a {
+    padding: unset;
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=App.css.map */
